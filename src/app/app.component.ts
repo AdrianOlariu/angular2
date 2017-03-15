@@ -11,7 +11,7 @@ import { HomeComponent } from "./components/pages/home.component";
                 <router-outlet></router-outlet>
              </div>`,
   directives: [NavbarComponent, JumbotronComponent,
-    HomeComponent, AboutComponent]//components, we add in 'directives' array
+    HomeComponent, AboutComponent]//components, we add them in 'directives' array
 })
 
 export class AppComponent{
