@@ -16,8 +16,8 @@ export class JumbotronComponent{
 
   constructor(){//is gonna run every time the component is initialized
     this.jbtHeading = 'Hello World';
-    this.jbtText = 'Some paragraph, nothing special here. ' +
-      'There is actually nothing interesting to see here.';
+    this.jbtText = `Some paragraph, nothing special here.
+      'There is actually nothing interesting to see here.`;
     this.jbtBtnText = 'Learn more';
     this.jbtBtnUrl = 'http://test.com/'
   }

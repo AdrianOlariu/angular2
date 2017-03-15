@@ -9,5 +9,9 @@ import { Component } from '@angular/core';
   templateUrl:'home.component.html'
 })
 export class HomeComponent{
+  public title: String;
 
+  constructor(){
+    this.title = "This is the HOME page!";
+  }
 }
