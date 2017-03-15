@@ -9,11 +9,13 @@ import { HomeComponent } from "./components/pages/home.component";
   template: `<navbar></navbar>
               <div class="container">
                 <router-outlet></router-outlet>
-             </div>`,
-  directives: [NavbarComponent, JumbotronComponent,
-    HomeComponent, AboutComponent]//components, we add them in 'directives' array
+             </div>`//components, we add them in 'directives' array
 })
 
 export class AppComponent{
-  helloWorld = 'Hello World'
+  public helloWorld: String;
+
+  constructor(){
+    this.helloWorld = 'Hello World';
+  }
 }
